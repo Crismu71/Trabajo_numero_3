@@ -1,0 +1,6 @@
+@game_freak_pokemon_api_HostAddress = http://localhost:5199
+
+GET {{game_freak_pokemon_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

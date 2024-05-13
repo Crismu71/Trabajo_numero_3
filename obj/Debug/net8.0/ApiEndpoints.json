@@ -1,0 +1,206 @@
+[
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.AbilityController",
+    "Method": "Get",
+    "RelativePath": "api/ability",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[game_freak_pokemon_api.Models.Ability, game-freak-pokemon-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.AbilityController",
+    "Method": "Create",
+    "RelativePath": "api/ability",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ability",
+        "Type": "game_freak_pokemon_api.Models.Ability",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.AbilityController",
+    "Method": "Delete",
+    "RelativePath": "api/ability/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "game_freak_pokemon_api.Models.Ability",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.AbilityController",
+    "Method": "CreateBulk",
+    "RelativePath": "api/ability/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "abilities",
+        "Type": "System.Collections.Generic.List\u00601[[game_freak_pokemon_api.Models.Ability, game-freak-pokemon-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "Get",
+    "RelativePath": "api/pokemon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[game_freak_pokemon_api.Models.Pokemon, game-freak-pokemon-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "Create",
+    "RelativePath": "api/pokemon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemon",
+        "Type": "game_freak_pokemon_api.Models.Pokemon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "Update",
+    "RelativePath": "api/pokemon",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedPokemon",
+        "Type": "game_freak_pokemon_api.Models.Pokemon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "GetById",
+    "RelativePath": "api/pokemon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "game_freak_pokemon_api.Models.Pokemon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "Delete",
+    "RelativePath": "api/pokemon/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "game_freak_pokemon_api.Models.Pokemon",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "game_freak_pokemon_api.Controllers.PokemonController",
+    "Method": "CreateBulk",
+    "RelativePath": "api/pokemon/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemons",
+        "Type": "System.Collections.Generic.List\u00601[[game_freak_pokemon_api.Models.Pokemon, game-freak-pokemon-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "T/NEdykryCCeeQEO/X2+BuquHykRLQGLzG2l8LW0KsQ=",
+  "Source": "game-freak-pokemon-api",
+  "BasePath": "_content/game-freak-pokemon-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
